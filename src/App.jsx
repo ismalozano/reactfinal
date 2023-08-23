@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import Header from './components/header/header';
-import { footer } from './components/footer/footer'
+import Footer from './components/footer/footer';
 
 
 
@@ -35,6 +35,7 @@ function App() {
         </a>
       </header> */}
       <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }

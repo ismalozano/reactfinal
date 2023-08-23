@@ -1,7 +1,5 @@
 import './header.css';
 
-import bat from "../../multimedia/Batman-Logo-1939.png"
-
 export default function Header() {
     return (
         <div>
@@ -122,18 +120,8 @@ export default function Header() {
                     <br />
 
                 </article>
-
             </section>
-            <section class="content contact">
-
-                <h2 class="title">Contacto</h2>
-                <br />
-                <p>+54 2612656770</p>
-                <br />
-                <figure class="Ubi">
-                    <img src={bat} height="220px" width="50%" alt="Ubi" />
-                </figure>
-            </section>
+            <br/><br/><br/><br/><br/>
         </div>
     )
 }
