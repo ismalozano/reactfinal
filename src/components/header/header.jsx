@@ -1,4 +1,5 @@
 import './header.css';
+import {Link} from 'react-router-dom'
 
 export default function Header() {
     return (
@@ -6,14 +7,14 @@ export default function Header() {
             <nav class="head">
 
                 <div class="logo">
-                    <a href="#">Logo</a>
+                    <Link to="/Logo">Logo</Link>
                 </div>
 
                 <div class="navbar">
-                    <a href="#">Inicio</a>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Contacto</a>
-                    <a href="#">Productos</a>
+                    <Link to="/Inicio">Inicio</Link>
+                    <Link to="/Nosotros">Nosotros</Link>
+                    <Link to="/num_contacto">Contacto</Link>
+                    <Link to="/Productos">Productos</Link>
                 </div>
 
             </nav>
@@ -36,9 +37,9 @@ export default function Header() {
 
                 <div class="btn-home">
 
-                    <a href="#" class="btn">IG </a>
+                    <Link to="/IG" class="btn">IG </Link>
                     
-                    <a href="#" class="btn">TW </a>
+                    <Link to="/TW" class="btn">TW </Link>
 
                 </div>
 
