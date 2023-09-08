@@ -3,25 +3,25 @@ import {Link} from 'react-router-dom'
 
 export default function Header() {
     return (
-        <div>
-            <nav class="head">
+        <div className = "divHeader">
+            <nav className="head">
 
-                <div class="logo">
+                <div className="logo">
                     <Link to="/Logo">Logo</Link>
                 </div>
 
-                <div class="navbar">
+                <div className="navbar">
                     <Link to="/Inicio">Inicio</Link>
                     <Link to="/Nosotros">Nosotros</Link>
                     <Link to="/num_contacto">Contacto</Link>
-                    <Link to="/Productos">Productos</Link>
+                    <Link to="/iniciar_sesion">Iniciar Sesion</Link>
                 </div>
 
             </nav>
             
-            <header class="content header">
+            <header className="content header">
 
-                <h2 class="title">Inicio</h2>
+                <h2 className="title">Inicio</h2>
 
                 <p>
                     <br />
@@ -35,11 +35,11 @@ export default function Header() {
                 </p>
 
 
-                <div class="btn-home">
+                <div className="btn-home">
 
-                    <Link to="/IG" class="btn">IG </Link>
+                    <Link to="/IG" className="btn">IG </Link>
                     
-                    <Link to="/TW" class="btn">TW </Link>
+                    <Link to="/TW" className="btn">TW </Link>
 
                 </div>
 
@@ -47,9 +47,9 @@ export default function Header() {
             
             <br/>
 
-            <section class="content sau">
+            <section className="content sau">
 
-                <h2 class="title">Productos</h2>
+                <h2 className="title">Productos</h2>
                 <br/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Possimus eligendi quod id sunt? Fuga,
@@ -57,21 +57,21 @@ export default function Header() {
                     in corrupti ad architecto necessitatibus ex nemo illo!
                 </p>
 
-                <div class="box-container">
+                <div className="box-container">
                     <br/>
 
-                    <div class="box">
+                    <div className="box">
 
-                        <i class="fab fa-angular"></i>
+                        <i className="fab fa-angular"></i>
                         <h3>lorem</h3>
                         <br/>
                         <p>in corrupti ad architecto </p>
 
                     </div>
                     <br/>
-                    <div class="box">
+                    <div className="box">
 
-                        <i class="fab fa-apple"></i>
+                        <i className="fab fa-apple"></i>
                         <h3>lorem</h3>
                         <br/>
                         <p>in corrupti ad architecto </p>
@@ -79,9 +79,9 @@ export default function Header() {
 
                     </div>
                     
-                    <div class="box">
+                    <div className="box">
 
-                        <i class="fab fa-android"></i>
+                        <i className="fab fa-android"></i>
                         <h3>lorem</h3>
                         <br/>
                         <p>in corrupti ad architecto </p>
@@ -93,9 +93,9 @@ export default function Header() {
 
             </section>
 
-            <section class="content about">
+            <section className="content about">
 
-                <h2 class="title">about</h2>
+                <h2 className="title">about</h2>
                 <br/>
                 <p>Lorem ipsum dolor sit amet consectetur 
                     adipisicing elit. Quasi reprehenderit 
@@ -103,20 +103,20 @@ export default function Header() {
 
                 </p>
 
-                <a href="#" class="btn">Saber Mas</a>
+                <a href="#" className="btn">Saber Mas</a>
 
 
             </section>
             <br/>
 
-            <section class="content price">
+            <section className="content price">
 
-                <article class="contain">
+                <article className="contain">
 
-                    <h2 class="title">Precio</h2>
+                    <h2 className="title">Precio</h2>
                     <br />
                     <p>El precio depende de que articulo de la pagina te gusta, para saberlo, visita: 
-                        <a href="#" class="btn">Articulos</a> 
+                        <a href="#" className="btn">Articulos</a> 
                     </p>
                     <br />
 

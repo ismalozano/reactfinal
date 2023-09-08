@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Num_Contacto from './components/contacto/num_contacto';
+import Iniciar_sesion from './components/LoginForm/LoginForm';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 
@@ -40,6 +41,16 @@ function App() {
 
             </>}>
           </Route>
+
+          <Route 
+            path="/iniciar_sesion"
+            element={<>
+
+              <Iniciar_sesion />
+
+            </>}>
+          </Route>
+
         </Routes>
       
       </BrowserRouter>

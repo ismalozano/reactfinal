@@ -1,0 +1,39 @@
+.divLoginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLoginForm {
+    width: 200px;
+    padding: 1rem;
+}
+
+.divLoginFormRegister {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputpassword {
+    width: 200px;
+    padding: 1rem;
+}
+
+.inputUsername{
+    width: 200px;
+    padding: 1rem;
+}
+
+.inputEmail{
+    width: 200px;
+    padding: 1rem; 
+}
+
+.inputPassword{
+    width: 200px;
+    padding: 1rem; 
+}
+
+.inputRepeatPassword{
+    width: 200px;
+    padding: 1rem; 
+}
