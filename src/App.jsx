@@ -5,6 +5,8 @@ import Footer from './components/footer/footer';
 import Num_Contacto from './components/contacto/num_contacto';
 import Iniciar_sesion from './components/LoginForm/LoginForm';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Producto from './components/producto/producto';
+import Carrito from './components/producto/carrito';
 
 
 function App() {
@@ -47,6 +49,24 @@ function App() {
             element={<>
 
               <Iniciar_sesion />
+
+            </>}>
+          </Route>
+          
+          <Route 
+            path="/productos"
+            element={<>
+
+              <Producto />
+
+            </>}>
+          </Route>
+
+          <Route 
+            path="/carrito"
+            element={<>
+
+              <Carrito />
 
             </>}>
           </Route>

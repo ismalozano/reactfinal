@@ -7,12 +7,12 @@ export default function Header() {
             <nav className="head">
 
                 <div className="logo">
-                    <Link to="/Logo">Logo</Link>
+                    <Link to="/home">Logo</Link>
                 </div>
 
                 <div className="navbar">
-                    <Link to="/Inicio">Inicio</Link>
-                    <Link to="/Nosotros">Nosotros</Link>
+                    <Link to="/carrito">Carrito</Link>
+                    <Link to="/productos">Productos</Link>
                     <Link to="/num_contacto">Contacto</Link>
                     <Link to="/iniciar_sesion">Iniciar Sesion</Link>
                 </div>
